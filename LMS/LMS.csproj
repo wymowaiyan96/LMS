@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Libarian\addBooks.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -118,6 +119,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Libarian\addBooks.aspx.cs">
+      <DependentUpon>addBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libarian\addBooks.aspx.designer.cs">
+      <DependentUpon>addBooks.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Libarian\Demo.aspx.cs">
       <DependentUpon>Demo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -143,6 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Libarian\assets\" />
+    <Folder Include="Libarian\book_images\" />
     <Folder Include="Libarian\images\" />
   </ItemGroup>
   <PropertyGroup>

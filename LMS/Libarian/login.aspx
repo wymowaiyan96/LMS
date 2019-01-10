@@ -56,7 +56,7 @@
                         <asp:Button ID="b1" runat="server" Text="Sign In" class="btn btn-success btn-flat m-b-30 m-t-30" OnClick="b1_Click"></asp:Button>
                         
                       <div id="error" runat="server" class="alert alert-danger"  style="margin-top:10px;display:none" >
-                         <strong>You have entered invalid username and password</strong>
+                         <strong>You have entered invalid username and password!</strong>
                       </div>
                        
                     </form>
